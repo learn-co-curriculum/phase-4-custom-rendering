@@ -25,8 +25,8 @@ on request. We already have the makings of a basic API. In this lesson, we're
 going to look at shaping that data that gets converted to JSON and making it
 more useful to us from the frontend JavaScript perspective.
 
-The way we structure our data matters &mdash; it can lead to better, simpler
-code in the future. By specifically defining what data is being sent via a Rails
+The way we structure our data matters — it can lead to better, simpler code in
+the future. By specifically defining what data is being sent via a Rails
 controller, we have full control over what data our frontend has access to.
 
 ## Removing Content When Rendering
@@ -95,7 +95,7 @@ def index
 end
 ```
 
-Visiting or fetching `http://localhost:3000/cheeses` will now produce our array
+Visiting `http://localhost:3000/cheeses` will now produce our array
 of cheese objects and each object will _only_ have the `id`, `name`, `price`,
 and `is_best_seller` values, leaving out everything else:
 
@@ -165,7 +165,9 @@ def show
 end
 ```
 
-With that code in place, our JSON response looks like this:
+With that code in place, our JSON response contains an additional key-value
+pair, in which the key is the name of the method and the value is the result of
+calling the method for the current `Cheese` object:
 
 ```json
 {
@@ -240,8 +242,8 @@ the client some additional information about what went wrong with this request.
 
 ## Conclusion
 
-We can now take a single model or all the instances of that model and render it
-to JSON, extracting out any specific content we do or do not want to send!
+We can now take the instances of a model and render them to JSON, extracting out
+any specific content we do or do not want to send!
 
 Whether you are building a professional API for a company or for your own
 personal site, having the ability to fine tune how your data looks is a critical
