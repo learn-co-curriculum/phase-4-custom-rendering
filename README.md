@@ -17,6 +17,10 @@ rails db:migrate db:seed
 
 This will download all the dependencies for our app and set up the database.
 
+## Video Walkthrough
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N5_l1a-3OV8?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 ## Introduction
 
 By using `render json:` in our Rails controller, we can take entire models or
