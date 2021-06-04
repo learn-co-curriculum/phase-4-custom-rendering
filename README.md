@@ -253,4 +253,8 @@ In future lessons, we'll cover the topic of _serialization_ in more depth, and
 introduce some additional tools to make it easier to customize the shape of our
 JSON response.
 
+## Resources
+
+- [ActiveRecord to_json method][to_json]
+
 [to_json]: https://apidock.com/rails/ActiveRecord/Serialization/to_json
