@@ -137,7 +137,7 @@ The above code would achieve the same result, producing only `id`, `name`,
 `created_at` and `updated_at`.
 
 Both the `only` and `except` options are available to us thanks to the
-[`.to_json`][to_json] method, which Rails uses internally when we call
+[`.as_json`][as_json] method, which Rails uses internally when we call
 `render json:` with an Active Record object.
 
 ## Extending JSON Data with :methods
@@ -255,6 +255,6 @@ JSON response.
 
 ## Resources
 
-- [ActiveRecord to_json method][to_json]
+- [ActiveRecord as_json method][as_json]
 
-[to_json]: https://apidock.com/rails/ActiveRecord/Serialization/to_json
+[as_json]: https://api.rubyonrails.org/classes/ActiveModel/Serializers/JSON.html
