@@ -10,9 +10,9 @@
 
 Fork and clone this repo, then run:
 
-```sh
-bundle install
-rails db:migrate db:seed
+```console
+$ bundle install
+$ rails db:migrate db:seed
 ```
 
 This will download all the dependencies for our app and set up the database.
