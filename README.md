@@ -257,6 +257,15 @@ In future lessons, we'll cover the topic of _serialization_ in more depth, and
 introduce some additional tools to make it easier to customize the shape of our
 JSON response.
 
+## Check For Understanding
+
+Before you move on, make sure you can answer the following questions:
+
+1. Why is it important to be able to customize the JSON that is returned by our
+   apps?
+2. What are some options we can use with the `render` method to customize the
+   JSON response?
+
 ## Resources
 
 - [ActiveRecord as_json method][as_json]
