@@ -263,8 +263,8 @@ Before you move on, make sure you can answer the following questions:
 
 1. Why is it important to be able to customize the JSON that is returned by our
    apps?
-2. What is the process for including the results of calling an instance method
-   in our JSON?
+2. What are some options we can use with the `render` method to customize the
+   JSON response?
 
 ## Resources
 
