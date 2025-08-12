@@ -26,3 +26,10 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore Gemfile and lockfile
+/Gemfile
+/Gemfile.lock
+
+# Ignore boot.rb
+/config/boot.rb
